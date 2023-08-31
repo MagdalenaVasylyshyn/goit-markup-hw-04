@@ -82,11 +82,12 @@ p {
   padding: 24px 0;
 }
 .menu {
-  display: flex;
-  column-gap: 40px;
+  /* display: flex;
+  column-gap: 40px; */
 }
 
 .menu-navigation {
+  display: flex;
   gap: 40px;
 }
 
@@ -96,7 +97,7 @@ p {
 
 .menu-contacts {
   display: flex;
-  column-gap: 40px;
+  /* column-gap: 40px; */
   margin-left: auto;
   gap: 40px;
 }
@@ -220,7 +221,7 @@ p {
 
 .success-menu {
   display: flex;
-  column-gap: 24px;
+  /* column-gap: 24px; */
   gap: 24px;
 }
 
@@ -241,18 +242,18 @@ p {
   text-transform: capitalize;
   line-height: 1.11;
   padding-top: 120px;
-  padding-bottom: 72px;
+  /* padding-bottom: 72px; */
   margin-bottom: 72px;
 }
 
 .our-team-section {
-  padding-bottom: 120px;
+  /* padding-bottom: 120px; */
   padding: 120px 0;
 }
 
 .our-team-menu {
   display: flex;
-  column-gap: 24px;
+  /* column-gap: 24px; */
   gap: 24px;
 }
 
@@ -315,7 +316,7 @@ p {
   line-height: 1.11;
   text-transform: capitalize;
   padding-top: 120px;
-  padding-bottom: 72px;
+  /* padding-bottom: 72px; */
   margin-bottom: 72px;
 }
 
@@ -361,8 +362,8 @@ p {
 }
 
 .page-footer {
-  padding-top: 101px;
-  padding-bottom: 100px;
+  /* padding-top: 101px;
+  padding-bottom: 100px; */
   padding: 100px 0;
 }
 
