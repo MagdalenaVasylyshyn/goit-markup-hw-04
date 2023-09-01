@@ -118,6 +118,25 @@ p {
   padding: 24px 0;
 }
 
+.menu-navigation-item-link::after {
+  /* content: "";
+  width: 48px;
+  height: 4px;
+  border-radius: 2px;
+  background-color:#404BBF;
+  margin-top: 20px; */
+}
+
+.current::after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #404BBF;
+  margin-top: 20px;
+}
+
 .menu-navigation-item-link:active {
   color: #404bbf;
 }
@@ -244,6 +263,7 @@ p {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   line-height: 1.11;
+  margin-bottom: 72px;
   /* padding-top: 120px; */
   /* padding-bottom: 72px; */
   /* margin-bottom: 72px; */ 
@@ -318,6 +338,7 @@ p {
   letter-spacing: 0.02em;
   line-height: 1.11;
   text-transform: capitalize;
+  margin-bottom: 72px;
   /* padding-top: 120px; */
   /* padding-bottom: 72px; */
   /* margin-bottom: 72px; */
